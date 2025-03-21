@@ -21,9 +21,9 @@
 		</div>
 	</header>
 
-	<!-- Nav -->
 	<nav>
-		<ul>
+		<button class="menu-toggle" onclick="toggleMenu()">☰</button>
+		<ul class="nav-links">
 			<li><a href="index.html">Inicio</a></li>
 			<li><a href="services.html">Serviços</a></li>
 			<li><a href="sobrenos.html">Sobre Nós</a></li>
@@ -51,11 +51,12 @@
 				</div>
 
 				<h2>Onde estamos localizados</h2>
-				<div>
+				<div class="map-container">
 					<iframe
 						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.392664891362!2d-43.990142314271075!3d-19.949982233594948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6964bb5c63393%3A0xe2bd445e8d493f52!2sR.%20Felic%C3%ADssimo%2C%20105%20-%20Nova%20Cintra%2C%20Belo%20Horizonte%20-%20MG%2C%2030516-180!5e0!3m2!1spt-BR!2sbr!4v1741890321974!5m2!1spt-BR!2sbr"
-						width="1100" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-						referrerpolicy="no-referrer-when-downgrade"></iframe>
+						allowfullscreen="" loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade">
+					</iframe>
 				</div>
 
 				<div class="col-4 col-12-small">
@@ -102,6 +103,7 @@
 	<script src="assets/js/browser.min.js"></script>
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
+	<script src="assets/js/nav.js"></script>
 	<script src="assets/js/main.js"></script>
 
 
